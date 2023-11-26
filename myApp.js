@@ -10,7 +10,7 @@ app.get("/json", (req, res) => {
   if (mySecret === "uppercase") {
     response = "Hello json".toUpperCase();
   } else {
-    this.response = "Hello json";
+    response = "Hello json";
   }
   res.json({"message": response});
 })
